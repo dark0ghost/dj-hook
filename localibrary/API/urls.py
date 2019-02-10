@@ -8,6 +8,7 @@ urlpatterns =[
     path("save/", views.list_push, name="save"),
     path("deleted/", views.list_push, name="deleted"),
     path("send_push/",views.push,name="push"),
+    path("log",views.log),
 
 ]
 
