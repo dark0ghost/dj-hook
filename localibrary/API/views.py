@@ -73,4 +73,8 @@ def push(request):
      return HttpResponse("push")
     else:
         return HttpResponse("500")
+    
+    def log(request):
+    with open("log.log","r") as file:
+        return HttpResponse(file.read())
 
