@@ -12,5 +12,5 @@ query-string==2018.11.20
 redis==3.0.1
 request==2018.11.20
 requests==2.21.0
-urllib3==1.24.1
+urllib3==1.26.5
 whitenoise==4.1.2
